@@ -1,225 +1,213 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
 }
 
 .navbar {
-    background-color: #fff;
-    padding: 15px 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    /* border-bottom: 3px solid #6b21a8; */
+  background-color: #fff;
+  padding: 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  /* border-bottom: 3px solid #6b21a8; */
 }
 
 .navbar .navbar-logo {
-    font-weight: bold;
-    background: linear-gradient(to right, #3b82f6, #9333ea);
-    /* gradasi biru ke ungu */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 1.4rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #3b82f6, #9333ea);
+  /* gradasi biru ke ungu */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.4rem;
 
 }
 
 .navbar .navbar-nav a {
-    padding: 0.4rem 0.8rem;
-    font-size: 1rem;
-    display: inline-block;
-    color: black;
-    font-weight: 500;
-    /* border-radius: 5px;
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+  display: inline-block;
+  color: black;
+  font-weight: 500;
+  /* border-radius: 5px;
     background-color: #6b21a8; */
 }
 
 #loginBtn {
-    background: linear-gradient(90deg, #3b82f6, #9333ea);
-    border-radius: 15px;
-    color: #f6f6f6;
+  background: linear-gradient(90deg, #3b82f6, #9333ea);
+  border-radius: 15px;
+  color: #f6f6f6;
 }
 
 .navbar .navbar-nav .beranda:hover {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #3b82f6;
-    /* teks tetap biru */
-    font-weight: bold;
-    border: 2px solid transparent;
-    /* border awal transparan */
-    border-radius: 999px;
-    /* biar bulat */
-    background: linear-gradient(white, white),
-        /* background dalam tetap putih */
-        linear-gradient(to right, #3b82f6, #9333ea);
-    /* gradasi border */
-    background-origin: border-box;
-    background-clip: padding-box, border-box;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  padding: 6px 14px;
+  font-size: 1rem;
+  color: #3b82f6;
+  /* teks tetap biru */
+  font-weight: bold;
+  border: 1px solid transparent;
+  /* border awal transparan */
+  border-radius: 999px;
+  /* biar bulat */
+  background: linear-gradient(white, white),
+    /* background dalam tetap putih */
+    linear-gradient(to right, #3b82f6, #9333ea);
+  /* gradasi border */
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .navbar .navbar-nav .tentang:hover {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #3b82f6;
-    /* teks tetap biru */
-    font-weight: bold;
-    border: 2px solid transparent;
-    /* border awal transparan */
-    border-radius: 999px;
-    /* biar bulat */
-    background: linear-gradient(white, white),
-        /* background dalam tetap putih */
-        linear-gradient(to right, #3b82f6, #9333ea);
-    /* gradasi border */
-    background-origin: border-box;
-    background-clip: padding-box, border-box;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  padding: 6px 14px;
+  font-size: 1rem;
+  color: #3b82f6;
+  /* teks tetap biru */
+  font-weight: bold;
+  border: 1px solid transparent;
+  /* border awal transparan */
+  border-radius: 999px;
+  /* biar bulat */
+  background: linear-gradient(white, white),
+    /* background dalam tetap putih */
+    linear-gradient(to right, #3b82f6, #9333ea);
+  /* gradasi border */
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .navbar .navbar-nav .memori:hover {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #3b82f6;
-    /* teks tetap biru */
-    font-weight: bold;
-    border: 2px solid transparent;
-    /* border awal transparan */
-    border-radius: 999px;
-    /* biar bulat */
-    background: linear-gradient(white, white),
-        /* background dalam tetap putih */
-        linear-gradient(to right, #3b82f6, #9333ea);
-    /* gradasi border */
-    background-origin: border-box;
-    background-clip: padding-box, border-box;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  padding: 6px 14px;
+  font-size: 1rem;
+  color: #3b82f6;
+  /* teks tetap biru */
+  font-weight: bold;
+  border: 1px solid transparent;
+  /* border awal transparan */
+  border-radius: 999px;
+  /* biar bulat */
+  background: linear-gradient(white, white),
+    /* background dalam tetap putih */
+    linear-gradient(to right, #3b82f6, #9333ea);
+  /* gradasi border */
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .navbar .navbar-nav .kontak:hover {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #3b82f6;
-    /* teks tetap biru */
-    font-weight: bold;
-    border: 2px solid transparent;
-    /* border awal transparan */
-    border-radius: 999px;
-    /* biar bulat */
-    background: linear-gradient(white, white),
-        /* background dalam tetap putih */
-        linear-gradient(to right, #3b82f6, #9333ea);
-    /* gradasi border */
-    background-origin: border-box;
-    background-clip: padding-box, border-box;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  padding: 6px 14px;
+  font-size: 1rem;
+  color: #3b82f6;
+  /* teks tetap biru */
+  font-weight: bold;
+  border: 1px solid transparent;
+  /* border awal transparan */
+  border-radius: 999px;
+  /* biar bulat */
+  background: linear-gradient(white, white),
+    /* background dalam tetap putih */
+    linear-gradient(to right, #3b82f6, #9333ea);
+  /* gradasi border */
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .navbar .navbar-nav #loginBtn:hover {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #3b82f6;
-    /* teks tetap biru */
-    font-weight: bold;
-    border: 2px solid transparent;
-    /* border awal transparan */
-    border-radius: 999px;
-    /* biar bulat */
-    background: linear-gradient(white, white),
-        /* background dalam tetap putih */
-        linear-gradient(to right, #3b82f6, #9333ea);
-    /* gradasi border */
-    background-origin: border-box;
-    background-clip: padding-box, border-box;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  padding: 6px 14px;
+  font-size: 1rem;
+  color: #3b82f6;
+  /* teks tetap biru */
+  font-weight: bold;
+  border: 1px solid transparent;
+  /* border awal transparan */
+  border-radius: 999px;
+  /* biar bulat */
+  background: linear-gradient(white, white),
+    /* background dalam tetap putih */
+    linear-gradient(to right, #3b82f6, #9333ea);
+  /* gradasi border */
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .hero {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    background-image: url(../img/lulusan2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../img/lulusan2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
 
 }
 
 .hero .content {
-    padding: 1.4rem 7%;
-    max-width: 60rem;
+  padding: 1.4rem 7%;
+  max-width: 60rem;
 }
 
 .content h1, p, a {
-    color: #fff;
+  color: #fff;
 }
 
 .hero .content h1 {
-    font-size: 2.8em;
-    color: #fff;
-    text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-    line-height: 1.2;
-    text-transform: uppercase;
+  font-size: 2.8em;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .hero .content p {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    line-height: 1.4;
-    font-weight: 200;
-    text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  line-height: 1.4;
+  font-weight: 500;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
 .hero .content .cta {
-    margin-top: 1rem;
-    display: inline-block;
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    font-weight: bold;
-    background: linear-gradient(90deg, #3b82f6, #9333ea);
-    color: #fff;
-    border-radius: 0.5rem;
-    box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #3b82f6, #9333ea);
+  color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
 .hero .content .cta:hover {
-     padding: 1rem 2rem;
-    font-size: 1rem;
-    color: #3b82f6;
-    /* teks tetap biru */
-    font-weight: bold;
-    border: 2px solid transparent;
-    /* biar bulat */
-    background: linear-gradient(white, white),
-        /* background dalam tetap putih */
-        linear-gradient(to right, #3b82f6, #9333ea);
-    /* gradasi border */
-    background-origin: border-box;
-    background-clip: padding-box, border-box;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  transform: scale(1.05);
 }
 
 .tentang {
@@ -227,15 +215,15 @@ body {
   background-color: #fff;
 }
 
-.tentang h2, .kenangan h2, .kontak h2{
+.tentang h2, .kenangan h2, .kontak h2 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 2rem;
-   font-weight: bold;
-    background: linear-gradient(to right, #3b82f6, #9333ea);
-    /* gradasi biru ke ungu */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  background: linear-gradient(to right, #3b82f6, #9333ea);
+  /* gradasi biru ke ungu */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .row {
@@ -255,7 +243,7 @@ body {
   align-items: center;
   padding: 1rem;
   background-color: #f9fafb;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
 }
 
@@ -274,8 +262,8 @@ body {
   transform: scale(1.05);
 }
 
-.kenangan-img img:hover{
-    transform: scale(1.05);
+.kenangan-img img:hover {
+  transform: scale(1.05);
 }
 
 /* Box teks "about" */
@@ -283,8 +271,14 @@ body {
   flex: 1 1 300px;
   background-color: #f9fafb;
   padding: 1.5rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
+}
+
+.about audio{
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .about h3 {
@@ -293,7 +287,7 @@ body {
   color: #4f46e5;
 }
 
-.about p{
+.about p {
   margin-bottom: 1rem;
   color: #333;
   line-height: 1.6;
@@ -304,20 +298,20 @@ body {
   font-size: 1rem !important;
 }
 
-.kenangan{
-    background-color: #fff;
-    scroll-margin-top: 80px;
+.kenangan {
+  background-color: #fff;
+  scroll-margin-top: 80px;
 }
 
-.kenangan p, .kontak p{
-    text-align: center;
-    max-width: 30rem;
-    margin: auto;
-    margin-bottom: 3rem;
-    /* font-size: 1.4rem; */
-    font-weight: 200;
-    line-height: 1.6;
-    color: #333;
+.kenangan p, .kontak p {
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  margin-bottom: 3rem;
+  /* font-size: 1.4rem; */
+  font-weight: 200;
+  line-height: 1.6;
+  color: #333;
 }
 
 .kontak {
@@ -333,7 +327,7 @@ body {
   justify-content: center;
   align-items: stretch;
   background-color: #f9fafb;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   padding: 2rem;
 }
@@ -373,8 +367,8 @@ body {
 
 .kontak .row form .input-group i {
   color: #666;
-  margin-right: 1.5rem; 
-  flex-shrink: 0; 
+  margin-right: 1.5rem;
+  flex-shrink: 0;
 }
 
 .kontak .row form .input-group input {
@@ -403,64 +397,64 @@ body {
   background: linear-gradient(to right, #2563eb, #7e22ce);
 }
 
-footer{
-     background: linear-gradient(to right, #2563eb, #7e22ce);
-      text-align: center;
-    padding: 1rem 0.3rem;
-    margin-top: 3rem;
+footer {
+  background: linear-gradient(to right, #2563eb, #7e22ce);
+  text-align: center;
+  padding: 1rem 0.3rem;
+  margin-top: 3rem;
 }
 
-footer .social{
-    padding: 1rem 0;
+footer .social {
+  padding: 1rem 0;
 }
 
-footer .social a{
-    color: #fff;
-    margin: 1rem;
+footer .social a {
+  color: #fff;
+  margin: 1rem;
 }
 
-footer .social a:hover, footer .links a:hover{
-    color: blue;
+footer .social a:hover, footer .links a:hover {
+  color: blue;
 }
 
-footer .links{
-    margin-bottom: 1.4rem;
+footer .links {
+  margin-bottom: 1.4rem;
 }
 
-footer .links a{
-    color: #fff;
-    padding: 0.7rem 1rem;
+footer .links a {
+  color: #fff;
+  padding: 0.7rem 1rem;
 }
 
-footer .credit{
-    font-size: 0.8rem;
+footer .credit {
+  font-size: 0.8rem;
 }
 
-footer .credit a{
-    font-weight: bold;
+footer .credit a {
+  font-weight: bold;
 }
 
 /* Media Queris */
 
 /* Laptop */
 @media (max-width: 1366px) {
-    html {
-        font-size: 75%;
-    }
+  html {
+    font-size: 75%;
+  }
 }
 
 /* Tablet */
 @media (max-width: 758px) {
-    html {
-        font-size: 62.5%;
-    } 
+  html {
+    font-size: 62.5%;
+  }
 
 }
 
 /* Mobile Phone */
 
 @media (max-width: 450px) {
-    html {
-        font-size: 55%;
-    }
+  html {
+    font-size: 55%;
+  }
 }
